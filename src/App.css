@@ -1,0 +1,98 @@
+.hangman-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.word-container {
+  margin: 20px;
+  font-size: 36px;
+}
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  background-color: lightgray;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.image-container {
+  margin: 20px;
+  max-width: 500px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
+}
+
+/* .Hangman-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Hangman-word {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Hangman-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Hangman-buttons button {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #eee;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Hangman-buttons button:disabled {
+  background-color: #ccc;
+  cursor: default;
+}
+
+.Hangman-image {
+  margin-bottom: 20px;
+}
+
+.Hangman-image img {
+  width: 100%
+} */
